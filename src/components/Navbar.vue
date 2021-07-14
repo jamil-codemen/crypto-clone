@@ -1,5 +1,5 @@
 <template>
-<div id="nav" class="w-full text-gray-700 bg-blue-dark dark-mode:text-gray-200 dark-mode:bg-gray-800">
+<div id="nav" class="w-full text-gray-700 bg-custom dark-mode:text-gray-200 dark-mode:bg-gray-800">
   <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
     <div class="p-4 flex flex-row items-center justify-between">
       <router-link to="/" class="text-lg font-semibold tracking-widest text-white uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Crypto Clone</router-link>
@@ -32,3 +32,6 @@
   </div>
 </div>
 </template>
+<style scoped>
+.bg-custom {background-color: rgb(6, 17, 33);}
+</style>

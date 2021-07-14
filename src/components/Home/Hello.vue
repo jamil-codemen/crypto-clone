@@ -1,5 +1,5 @@
 <template>
-  <div class="hello flex justify-center bg-blue-dark">
+  <div class="hello flex justify-center bg-custom">
   <div>
     
   <div>
@@ -35,5 +35,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.bg-custom {background-color: rgb(6, 17, 33);}
 </style>
