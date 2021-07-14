@@ -1,4 +1,6 @@
-<template>
+
+  <template>
+
   <footer class="footer bg-custom relative pt-10 border-b-2 border-blue-700 ">
     <div class="container mx-auto px-44">
       <div class="sm:flex sm:mt-8">
@@ -180,6 +182,7 @@
         </div>
       </div>
     </div>
+
   </footer>
 </template>
 <style scoped>
@@ -187,3 +190,10 @@
   background-color: rgb(6, 17, 33);
 }
 </style>
+
+</footer>
+</template>
+<style scoped>
+.bg-custom {background-color: rgb(6, 17, 33);}
+</style>
+
